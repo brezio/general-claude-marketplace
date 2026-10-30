@@ -1,0 +1,10 @@
+{
+  "name": "project-notes",
+  "version": "0.3.0",
+  "description": "A pane of notes and links beside the chat, in two sections: the project's (shared in the repo, plus this machine's own) and this session's. Claude keeps it up to date, guided by what the project says to record.",
+  "author": {
+    "name": "Bob Breznak"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
