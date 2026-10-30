@@ -1,5 +1,12 @@
 {
-  "name": "project-notes",
+  "name": "general-claude-marketplace",
   "owner": { "name": "Brezio" },
-  "plugins": [{ "name": "project-notes", "source": "./" }]
+  "metadata": { "description": "General-purpose Claude Code plugins from Brezio" },
+  "plugins": [
+    {
+      "name": "project-notes",
+      "source": "./plugins/project-notes",
+      "description": "A pane of project and session notes beside the chat that Claude keeps current"
+    }
+  ]
 }
